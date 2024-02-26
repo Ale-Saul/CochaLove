@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,91 +10,120 @@
     <!-- Tu CSS personalizado -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-    <!-- Barra de navegación -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-        <img src="Imagenes\CochaLove_logo.png" alt="Logo" style="height: 40px; width: 40px;">
-        CochaLove
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#inicio">Inicio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#lugar1">Lugar 1</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#lugar2">Lugar 2</a>
-            </li>
-            <!-- Agrega más enlaces para cada lugar -->
-        </ul>
-    </div>
-</nav>
+    <div class="container-fluid">
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="Imagenes\CochaLove_logo.png" alt="Logo" style="height: 40px; width: 40px;">
+                CochaLove
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lugar1">Lugar 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lugar2">Lugar 2</a>
+                    </li>
+                    <!-- Agrega más enlaces para cada lugar -->
+                </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <!-- Espacio para anuncio a la izquierda -->
+            <div class="col-lg-2 bg-light border">
+                <!-- Inserta tu anuncio aquí -->
+            </div>
 
-    <!-- Sección de Inicio -->
-    <section id="inicio" class="container mt-5">
-        <img src="Imagenes\CochaLove_logo.png" alt="Imagen" style="height: 200px; width: 200px;">
-        <h1>Bienvenido a CochaLove</h1>
-        <p>Descubre los lugares más románticos en Cochabamba para tener citas inolvidables.</p>
-    </section>
+            <!-- Contenido principal -->
+            <div class="col-lg-8">
 
-    <!-- Sección de Lugar 1 -->
-    <section id="lugar1" class="container mt-5 center-content">
-        <h2>Parque de La Familia</h2>
-        <img src="/Imagenes/familiPark.jpg" alt="" style="max-width: 50%; height: auto;">
-        <p>
-            El Parque de la Familia es un espacio turístico, destinado a la orientación alternativa recreacional,
-            Donde se destaca el espectáculo con 5 fuentes de aguas danzantes las cuales se llaman: fuente de la alegría, fuente de los deseos, fuente de la amistad, túnel de la esperanza, fuente principal y ofrece asombrosos espectáculos de luces y proyecciones en el agua en dos funciones, con chorros de hasta 20 metros sincronizados con la música.
-        </p>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#verModal">
-            Ver
-        </button>
-    </section>
 
-    <!-- Sección de Lugar 2 -->
-    <section id="lugar2" class="container mt-5">
-        <h2>Lugar 2 - Nombre del Lugar</h2>
-        <p>Descripción del lugar y por qué es ideal para una cita romántica.</p>
-        <!-- Puedes agregar imágenes, detalles, etc. -->
-    </section>
+                <!-- Sección de Inicio -->
+                <section id="inicio" class="container mt-5">
+                    <img src="Imagenes\CochaLove_logo.png" alt="Imagen" style="height: 200px; width: 200px;">
+                    <h1>Bienvenido a CochaLove</h1>
+                    <p>Descubre los lugares más románticos en Cochabamba para tener citas inolvidables.</p>
+                </section>
 
-    <!-- Agrega más secciones para cada lugar -->
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center p-3 mt-5">
-        <p>&copy; 2024 CochaLove - Lugares Románticos en Cochabamba</p>
-    </footer>
-
-    <!-- Bootstrap JS y scripts adicionales -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <div class="modal fade" id="verModal" tabindex="-1" role="dialog" aria-labelledby="verModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="verModalLabel">Vista previa del Parque de La Familia</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                <!-- Sección de Lugar 1 -->
+                <section id="lugar1" class="container mt-5 center-content">
+                    <h2>Parque de La Familia</h2>
+                    <img src="/Imagenes/familiPark.jpg" alt="" style="max-width: 50%; height: auto;">
+                    <p>
+                        El Parque de la Familia es un espacio turístico, destinado a la orientación alternativa
+                        recreacional,
+                        Donde se destaca el espectáculo con 5 fuentes de aguas danzantes las cuales se llaman: fuente de
+                        la alegría, fuente de los deseos, fuente de la amistad, túnel de la esperanza, fuente principal
+                        y ofrece asombrosos espectáculos de luces y proyecciones en el agua en dos funciones, con
+                        chorros de hasta 20 metros sincronizados con la música.
+                    </p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#verModal">
+                        Ver
                     </button>
-                </div>
-                <div class="modal-body">
-                    <!-- Puedes agregar más contenido aquí si es necesario -->
-                    <img src="/Imagenes/familiPark.jpg" alt="" style="max-width: 100%; height: auto;">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </section>
+
+                <!-- Sección de Lugar 2 -->
+                <section id="lugar2" class="container mt-5">
+                    <h2>Lugar 2 - Nombre del Lugar</h2>
+                    <p>Descripción del lugar y por qué es ideal para una cita romántica.</p>
+                    <!-- Puedes agregar imágenes, detalles, etc. -->
+                </section>
+
+                <!-- Agrega más secciones para cada lugar -->
+
+
+            </div>
+
+            <!-- Espacio para anuncio a la derecha -->
+            <div class="col-lg-2 bg-light border">
+                <!-- Inserta tu anuncio aquí -->
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center p-3 mt-5">
+            <p>&copy; 2024 CochaLove - Lugares Románticos en Cochabamba</p>
+        </footer>
+
+        <!-- Bootstrap JS y scripts adicionales -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <div class="modal fade" id="verModal" tabindex="-1" role="dialog" aria-labelledby="verModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="verModalLabel">Vista previa del Parque de La Familia</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Puedes agregar más contenido aquí si es necesario -->
+                        <img src="/Imagenes/familiPark.jpg" alt="" style="max-width: 100%; height: auto;">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
+
+
 </body>
+
 </html>
