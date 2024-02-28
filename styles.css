@@ -9,7 +9,7 @@ p {
 }
 /* Barra de Navegación */
 .navbar {
-    background-color: #e3f2fd;
+    background-color: #c41e47;
 }
 
 .navbar-brand {
@@ -66,8 +66,9 @@ a:hover {
 
 /* Centrar secciones */
 #inicio, #lugar1, #lugar2 {
-    margin: 0 auto;
-    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    /* margin: 0 auto; */
+    /*max-width: 800px;  Ajusta el ancho máximo según tus necesidades */
+    margin-top: 0;
 }
 
 /* Centrar imágenes dentro de las secciones */
@@ -93,4 +94,7 @@ section img {
 .PublicidadMid{
     display: flex;
     justify-content: center;
+}
+.custom-color {
+    background-color: #bb2b4f; /* Puedes cambiar el código de color según tus preferencias */
 }
