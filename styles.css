@@ -4,21 +4,24 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
+.container-fluid {
+    background-color: #f8f9fa; /* Fondo general */
+    padding: 20px;
+}
+
+
 p {
     text-align: justify;
 }
 /* Barra de Navegación */
+
 .navbar {
     background-color: #c41e47;
 }
 
-.navbar-brand {
-    font-weight: bold;
-    color: #1565c0;
-}
-
-.navbar-nav .nav-link {
-    color: #e0355a;
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: white !important;
 }
 
 /* Secciones */
