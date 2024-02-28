@@ -17,7 +17,6 @@ p {
 
 .navbar {
     background-color: #c41e47;
-    margin-top: 0px;
 }
 
 .navbar .navbar-brand,
@@ -101,4 +100,5 @@ section img {
 }
 .custom-color {
     background-color: #bb2b4f; /* Puedes cambiar el código de color según tus preferencias */
+    margin-top: 0;
 }
