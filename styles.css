@@ -83,18 +83,37 @@ section img {
 }
 
 /* Anuncios laterales */
-.col-lg-2 {
-    background-color: #f8f9fa; /* Fondo de los anuncios laterales */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-    padding: 20px;
+.col-lg-2-izq {
+    position: fixed;
+    top: 65px; /* Ajusta basado en la altura de tu navbar */
+    left: 17px;
+    padding: 10px;
+    width: 15%; /* O el ancho de tu preferencia */
+    height: 100%; /* O la altura de tu preferencia */
+    overflow-y: auto; /* Para hacer scrollable el anuncio si es más largo que la ventana */
+}
+.col-lg-2-der {
+    position: fixed;
+    top: 65px; /* Ajusta basado en la altura de tu navbar */
+    right: 0;
+    padding: 5px;
+    width: 15%; /* O el ancho de tu preferencia */
+    height: 100%; /* O la altura de tu preferencia */
+    overflow-y: auto; /* Para hacer scrollable el anuncio si es más largo que la ventana */
 }
 
 /* Contenido principal */
 .col-lg-8 {
     background-color: #fff; /* Fondo del contenido principal */
     border-radius: 8px;
+    margin-left: 16.8%;
+    margin-right: 18%;
+    margin-right: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
     padding: 20px;
 }
-
+/*carrusel anuncios*/
+.carousel {
+    max-width: 200px; /* Ajusta este valor según el ancho deseado para tu anuncio */
+    margin-top: 20px; /* Ajusta la distancia desde la parte superior */
+}
