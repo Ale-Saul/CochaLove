@@ -17,6 +17,7 @@ p {
 
 .navbar {
     background-color: #c41e47;
+    margin-top: 0px;
 }
 
 .navbar .navbar-brand,
