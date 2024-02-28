@@ -16,7 +16,7 @@ p {
 /* Barra de Navegación */
 
 .navbar {
-    background-color: #d3274cd0 !important;
+    background-color: #c41e47;
 }
 
 .navbar .navbar-brand,
@@ -69,8 +69,9 @@ a:hover {
 
 /* Centrar secciones */
 #inicio, #lugar1, #lugar2 {
-    margin: 0 auto;
-    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    /* margin: 0 auto; */
+    /*max-width: 800px;  Ajusta el ancho máximo según tus necesidades */
+    margin-top: 0;
 }
 
 /* Centrar imágenes dentro de las secciones */
@@ -82,38 +83,22 @@ section img {
     height: auto;
 }
 
-/* Anuncios laterales */
-.col-lg-2-izq {
-    position: fixed;
-    top: 65px; /* Ajusta basado en la altura de tu navbar */
-    left: 17px;
-    padding: 10px;
-    width: 15%; /* O el ancho de tu preferencia */
-    height: 100%; /* O la altura de tu preferencia */
-    overflow-y: auto; /* Para hacer scrollable el anuncio si es más largo que la ventana */
-}
-.col-lg-2-der {
-    position: fixed;
-    top: 65px; /* Ajusta basado en la altura de tu navbar */
-    right: 0;
-    padding: 5px;
-    width: 15%; /* O el ancho de tu preferencia */
-    height: 100%; /* O la altura de tu preferencia */
-    overflow-y: auto; /* Para hacer scrollable el anuncio si es más largo que la ventana */
+.imagenModal{
+    width: 768px;
+    height: auto;
+    border-radius: 15px;
 }
 
-/* Contenido principal */
-.col-lg-8 {
-    background-color: #fff; /* Fondo del contenido principal */
-    border-radius: 8px;
-    margin-left: 16.8%;
-    margin-right: 18%;
-    margin-right: 200px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-    padding: 20px;
+.Inicio{
+    display: flex;
+    justify-content: center;
 }
-/*carrusel anuncios*/
-.carousel {
-    max-width: 200px; /* Ajusta este valor según el ancho deseado para tu anuncio */
-    margin-top: 20px; /* Ajusta la distancia desde la parte superior */
+
+.PublicidadMid{
+    display: flex;
+    justify-content: center;
+}
+.custom-color {
+    background-color: #bb2b4f; /* Puedes cambiar el código de color según tus preferencias */
+    margin-top: 0;
 }
