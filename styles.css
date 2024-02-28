@@ -79,3 +79,18 @@ section img {
     height: auto;
 }
 
+.imagenModal{
+    width: 768px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.Inicio{
+    display: flex;
+    justify-content: center;
+}
+
+.PublicidadMid{
+    display: flex;
+    justify-content: center;
+}

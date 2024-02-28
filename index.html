@@ -49,23 +49,20 @@
         </nav>
         <div class="row">
             <!-- Espacio para anuncio a la izquierda -->
-            <div class="col-lg-2 bg-light border">
+            <div class="col-lg-2 bg-light border" style="position: fixed; top: 60px; left: 0; height: calc(100vh - 140px); overflow: auto;">
                 <section id="lugar2" class="container mt-5">
                     <img src="Imagenes\ad_placeholder1.png" alt="ad-1">
                 </section>
             </div>
 
             <!-- Contenido principal -->
-            <div class="col-lg-8">
-
-
+            <div class="col-lg-8 mx-auto">
                 <!-- Sección de Inicio -->
-                <section id="inicio" class="container mt-5">
+                <section id="inicio" class="container mt-5 text-center">
                     <img src="Imagenes\CochaLove_logo.png" alt="Imagen" style="height: 200px; width: 200px;">
                     <h1>Bienvenido a CochaLove</h1>
                     <p>Descubre los lugares más románticos en Cochabamba para tener citas inolvidables.</p>
                 </section>
-
                 <!-- Sección Sobre Nosotros -->
                 <section id="sobre-nosotros" class="container mt-5">
                     <h2>Sobre Nosotros</h2>
@@ -97,7 +94,7 @@
                         y ofrece asombrosos espectáculos de luces y proyecciones en el agua en dos funciones, con
                         chorros de hasta 20 metros sincronizados con la música.
                     </p>
-                    <button type="button" class="btn btn-primary verModalBtn" data-toggle="modal" data-target="#verModal" data-lugar="Parque De La Familia" data-imagenes="Imagenes/fuente.jpg,Imagenes/fuente.jpg">
+                    <button type="button" class="btn btn-primary verModalBtn" data-toggle="modal" data-target="#ModalLugar1">
                         Ver Parque De La Familia
                     </button>
                 </section>
@@ -114,11 +111,13 @@
                         es más alta que la estatua de Cristo Rey en Cali (28 m), al igual que la estatua de Cristo Redentor en Río de Janeiro,
                         que tiene 30 m, pero menor al Cristo Protector de Encantado, de 43 m, en el sur de Brasil.
                     </p>
-                    <button type="button" class="btn btn-primary verModalBtn" data-toggle="modal" data-target="#verModal" data-lugar="Cristo De La Concordia" data-imagenes="Imagenes/cristo.jpg,Imagenes/cristo2.jpg,Imagenes/cristo3.jpg">
+                    <button type="button" class="btn btn-primary verModalBtn" data-toggle="modal" data-target="#ModalLugar2">
                         Ver Cristo De La Concordia
                     </button>
                 </section>
-
+                <div class="PublicidadMid">
+                    <p>PUBLICIDAD</p>
+                </div>
                 <section id="lugar3" class="container mt-5 center-content">
                     <h2>Palacio Los Portales</h2>
                     <img src="Imagenes/palacio.jpg" alt="" style="max-width: 50%; height: auto;">
@@ -129,30 +128,20 @@
                         Simón Iturri Patiño, uno de los magnates de la minería más influyentes y acaudalados de Bolivia, el Palacio Portales 
                         nunca llegó a ser habitado por su familia, convirtiéndose en un fascinante capítulo de la historia boliviana.
                     </p>
-                    <button type="button" class="btn btn-primary verModalBtn" data-toggle="modal" data-target="#verModal" data-lugar="Palacio Los Portales" data-imagenes="Imagenes/palacio.jpg,Imagenes/palacio2.jpg,Imagenes/palacio3.jpg">
+                    <button type="button" class="btn btn-primary verModalBtn" data-toggle="modal" data-target="#ModalLugar3" >
                         Ver Palacio Los Portales
                     </button>
                 </section>
-
-                <section id="lugar4" class="container mt-5 center-content">
-                    <h2>Valle Alto</h2>
-                    <img src="Imagenes/valle-alto.jpg" alt="" style="max-width: 50%; height: auto;">
-                    <p>
-                        El Valle Alto es una región agrícola y ganadera de Bolivia, situada en el departamento de Cochabamba. 
-                        Se encuentra a una altitud de 2.500 msnm y tiene un clima templado. La región es conocida por su 
-                        producción de frutas y hortalizas, y es uno de los principales proveedores de alimentos de la ciudad de Cochabamba.
-                    </p>
-                    <button type="button" class="btn btn-primary verModalBtn" data-toggle="modal" data-target="#verModal" data-lugar="Valle Alto" data-imagenes="Imagenes/valle-alto.jpg,Imagenes/valle2.jpg,Imagenes/valle3.jpeg">
-                        Ver Valle Alto
-                    </button>
-                </section>
-                <!-- Sección de Lugar 5: Parque Lincoln -->
+                <!-- Sección de Lugar 4: Parque Lincoln -->
                 <section id="lugar5" class="container mt-5 center-content">
                     <h2>Parque Lincoln</h2>
                     <img src="Imagenes/parque-lincoln.jpg" alt="" style="max-width: 50%; height: auto;">
                     <p>
                         Otro parque encantador en Cochabamba, conocido por su ambiente tranquilo y relajado. Es perfecto para disfrutar de un picnic romántico o simplemente para sentarse y disfrutar del paisaje.
                     </p>
+                    <button type="button" class="btn btn-primary verModalBtn" data-toggle="modal" data-target="#ModalLugar4" >
+                        Ver
+                    </button>
                 </section>
                 
                 <!-- Sección de Lugar 6: Parque Nacional Carrasco -->
@@ -162,6 +151,9 @@
                     <p>
                         Para las parejas aventureras, el Parque Nacional Carrasco ofrece una amplia gama de actividades al aire libre, como senderismo, rafting y observación de aves, en medio de un impresionante entorno natural.
                     </p>
+                    <button type="button" class="btn btn-primary verModalBtn" data-toggle="modal" data-target="#ModalLugar5" >
+                        Ver
+                    </button>
                 </section>
                 <!-- Sección de lugar 7  -->
                 <section id="lugar7" class="container mt-5 center-content">
@@ -170,12 +162,18 @@
                     <p>
                         Este parque natural es menos frecuentado por turistas, pero ofrece una belleza natural impresionante. Ideal para parejas que disfrutan de la naturaleza y el senderismo.
                     </p>
+                    <button type="button" class="btn btn-primary verModalBtn" data-toggle="modal" data-target="#ModalLugar6" >
+                        Ver
+                    </button>
                 </section>
+                <div class="PublicidadMid">
+                    <p>PUBLICIDAD</p>
+                </div>
 
             </div>
 
             <!-- Espacio para anuncio a la derecha -->
-            <div class="col-lg-2 bg-light border">
+            <div class="col-lg-2 bg-light border" style="position: fixed; top: 60px; right: 0; height: calc(100vh - 140px); overflow: auto;">
                 <section id="lugar2" class="container mt-5">
                     <img src="Imagenes\ad_placeholder1.png" alt="ad-2">
                 </section>
@@ -191,21 +189,27 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-        <!-- Modal -->
-        <div class="modal fade" id="verModal" tabindex="-1" role="dialog" aria-labelledby="verModalLabel" aria-hidden="true">
+        <!-- Modal Para cada Lugar-->
+        <div class="modal fade" id="ModalLugar1" tabindex="-1" role="dialog" aria-labelledby="verModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="verModalLabel">Título del Lugar</h5>
+                        <h5 class="modal-title" id="verModalLabel">Parque De La Familia</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
+                        <img class="imagenModal" src="/Imagenes/fuente.jpg" alt="">
+                        <p>Atractivos: <br> -Asombrosos espectaculos de luces y proyecciones en el agua <br> -Fuente de Alegria. <br> -Fuente de los deseos. <br> -Fuente de la amistad <br>-Tunel de esperanza <br> -Plaza de comidas</p>
                         <!-- Carrusel -->
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <!-- Indicadores se insertarán aquí -->
+                                <!-- Por ejemplo: -->
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <!-- Añade más elementos según la cantidad de imágenes -->
                             </ol>
                             <div class="carousel-inner">
                                 <!-- Imágenes del carrusel se insertarán aquí -->
@@ -227,36 +231,142 @@
             </div>
         </div>
 
-
+        <!--Lugar2-->
+        <div class="modal fade" id="ModalLugar2" tabindex="-1" role="dialog" aria-labelledby="verModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="verModalLabel">Cristo de La Concordia</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="imagenModal" src="/Imagenes/cristo2.jpg" alt="">
+                        <p>Atractivos: <br> -Fabulosas vistas de la cudad de cochabamba <br> -Restaurates. <br> -Teleferico.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <!--lugar3-->
+    <div class="modal fade" id="ModalLugar3" tabindex="-1" role="dialog" aria-labelledby="verModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="verModalLabel">Palacio Portales</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="imagenModal" src="/Imagenes/palacio2.jpg" alt="">
+                    <p>Atractivos: <br> -Arte <br> -Explicación História. <br> -jardines perfectos para tomarse fotos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--lugar4-->
+    <div class="modal fade" id="ModalLugar4" tabindex="-1" role="dialog" aria-labelledby="verModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="verModalLabel">Parque Lincoln</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="imagenModal" src="/Imagenes/parque-lincoln.jpg" alt="">
+                    <p>Atractivos: <br> -Distintos parques <br> -Flora. <br> -fuentes <br> -Espacios ideales para fotos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--lugar5-->
+    <div class="modal fade" id="ModalLugar5" tabindex="-1" role="dialog" aria-labelledby="verModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="verModalLabel">Parque Nacional Carrasco</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="imagenModal" src="/Imagenes/parque-carrasco.jpg" alt="">
+                    <p>Atractivos: <br> -Encantadores paseos en la naturaleza <br> -Puedes ver animales silvestres. <br>-Rios.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--lugar6-->
+    <div class="modal fade" id="ModalLugar6" tabindex="-1" role="dialog" aria-labelledby="verModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="verModalLabel">Parque Tunari</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="imagenModal" src="/Imagenes/parque-tunari.jpeg" alt="">
+                    <p>Atractivos: <br> -Bosques naturales <br> -Ambientes para recreacion. <br> -hermosas vistas de la ciudad de Cochabamba <br> -Epocas de Nieve</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script>
         document.querySelectorAll('.verModalBtn').forEach(item => {
             item.addEventListener('click', event => {
                 const lugar = item.getAttribute('data-lugar');
                 const imagenes = item.getAttribute('data-imagenes').split(',');
-
-                // Actualiza el título del modal
-                document.querySelector('#verModal .modal-title').textContent = lugar;
-
+                const textoLorem = item.getAttribute('data-texto');
+    
+                // Actualiza el título y el texto del modal
+                const modalTitle = document.querySelector('#verModal .modal-title');
+                const modalText = document.querySelector('#verModal .modal-body p');
+    
+                modalTitle.textContent = lugar;
+                modalText.textContent = textoLorem;
+    
                 // Limpia el carrusel existente
                 const carouselInner = document.querySelector('#verModal .carousel-inner');
                 carouselInner.innerHTML = '';
-
+    
                 // Añade nuevas imágenes al carrusel
                 imagenes.forEach((imagen, index) => {
                     const carouselItem = document.createElement('div');
                     carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : '');
                     carouselItem.innerHTML = `<img src="${imagen}" class="d-block w-100" alt="...">`;
-
+    
                     carouselInner.appendChild(carouselItem);
                 });
-
+    
                 // Asegura que los indicadores del carrusel se actualicen adecuadamente (Opcional)
                 // Este paso dependerá de si decides manejar los indicadores de forma dinámica
             });
         });
     </script>
+    
 
 
 </body>
